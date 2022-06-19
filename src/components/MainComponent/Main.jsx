@@ -37,7 +37,7 @@ export const Main = () => {
             <span className="hint-icon"><img src={bulbIcon} alt="bulb-icon" /></span>
             <div className="hint-details">
               Think well before you guess. You have only <b>2</b> attempts per
-              day and even after you wi, you can come back the next day to try
+              day and even after you win, you can come back the next day to try
               for another jackpot!
             </div>
           </div>
