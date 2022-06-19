@@ -1,0 +1,159 @@
+
+.main-container{
+  margin: 2.5rem 10.9375rem 0px 10.9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url(../../images/top-stars.png) no-repeat;
+  background-size: contain;
+  font-family: 'Inter', sans-serif;
+  }
+  
+  .top-stars{
+    background: url(../../images/top-stars.png);
+    background-size: auto;
+    width:100vw;
+  }
+
+  .main-heading{
+    color: white;
+    font-size: 4rem;
+    text-align:center;
+    font-weight: 300;
+    line-height: 55px;
+    font-family: "Poppins", sans-serif;
+    animation: slideInFromBottom 1s ease 0s 1 normal forwards;
+  }
+  
+  .main-heading > span{
+    display:block;
+  }
+
+  .bold-text{
+    font-weight: 800;
+  }
+
+  .sub-heading{
+    margin-top: 1.4375rem;
+    color: white;
+    text-align:center;
+    font-size: 1.4375rem;
+    font-family: "Inter", sans-serif;
+    animation: slideInFromBottom 1s ease 0s 1 normal forwards;
+  }
+
+  .sub-heading > span{
+    display:block;
+  }
+
+  .title{
+    font-weight: 600;
+    text-align:center;
+    font-size: 1rem;
+  }
+
+  .title img {
+    margin-right: 2px;
+  }
+
+
+  .direction-list{
+    font-size: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .direction-list ol {
+    padding: 0 1rem;
+    font-size: 0.875rem;
+  }
+
+  .direction-list li {
+    margin-bottom: 5px;
+  }
+
+  .direction-list  p{
+    font-size: 0.875rem;
+  }
+  
+  
+  .direction-card{
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.39) -213.5%, rgba(255, 255, 255, 0.0) 100%);
+    box-shadow: inset 0px -1px 11px rgba(255, 255, 255, 0.17), inset 0px 2px 0px rgba(255, 255, 255, 0.24);
+    padding: 1.5rem 1.6875rem;
+    margin-top:20px;
+    color: white;
+    text-align: left;
+    max-width: 355px;
+    font-size: 12px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    animation: slideInFromBottom 1s ease 0s 1 normal forwards;
+  }
+
+  .hint-card{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    font-size : 0.75rem;
+  }
+
+  .hint-icon{
+    padding-right: 5px;
+  }
+
+  .hint-details {
+    letter-spacing: -0.02em;
+    line-height: 1.5;
+  }
+
+  @keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+/* Mobile */
+  @media only screen and (max-width: 600px) {
+
+    .main-container{
+      margin: 4%;
+      margin-top: 12%;
+    }
+
+    .main-heading{
+      font-size: 2.3rem;
+      line-height: 35px;
+    }
+
+    .main-heading > span{
+      display:inline;
+    }
+
+    .sub-heading{
+      font-size: 1.1rem;
+    }
+
+    .sub-heading > span{
+      display:inline;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px){ 
+    
+}
